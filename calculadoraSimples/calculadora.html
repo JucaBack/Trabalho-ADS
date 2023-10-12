@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="display" class="display">0</div>
+        <div class="buttons">
+            <button class="botao-cinza" onclick="limpar()">C</button>
+            <button class="botao-cinza" onclick="maisOuMenos()"></button>
+            <button class="botao-cinza" onclick="porcentagem()"></button>
+            <button class="botao-laranja" onclick="qualOperador('÷')">÷</button>
+
+            <button class="botao-cinza-claro" onclick="qualNumero(7)">7</button>
+            <button class="botao-cinza-claro" onclick="qualNumero(8)">8</button>
+            <button class="botao-cinza-claro" onclick="qualNumero(9)">9</button>
+            <button class="botao-laranja" onclick="qualOperador('x')">×</button>
+    
+            <button class="botao-cinza-claro" onclick="qualNumero(4)">4</button>
+            <button class="botao-cinza-claro" onclick="qualNumero(5)">5</button>
+            <button class="botao-cinza-claro" onclick="qualNumero(6)">6</button>
+            <button class="botao-laranja" onclick="qualOperador('-')">-</button>
+    
+            <button class="botao-cinza-claro" onclick="qualNumero(1)">1</button>
+            <button class="botao-cinza-claro" onclick="qualNumero(2)">2</button>
+            <button class="botao-cinza-claro" onclick="qualNumero(3)">3</button>
+            <button class="botao-laranja" onclick="qualOperador('+')">+</button>
+    
+            <button class="botao-cinza-claro button-zero" onclick="qualNumero(0)">0</button>
+            <button class="botao-cinza-claro" onclick="virgula()"></button>
+            <button class="botao-laranja" onclick="igual()">=</button>
+        </div>
+    </div>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>
