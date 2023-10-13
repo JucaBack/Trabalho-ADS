@@ -5,3 +5,5 @@ function abrirCalculadoraSimples()
 function abrirMediaAritmeticaSimples() {
     window.open("mediaAritmetica/mediaAritmetica.html")
 }
+
+// testte //
