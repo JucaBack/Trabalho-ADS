@@ -14,13 +14,14 @@ Atualizar o Repositório
 Sempre que desejar obter as últimas atualizações do repositório:
 
 ```bash
-git pull
+git pull // atualizar para o estado do repositório GitHub
  ```
 
+
 ```bash
-git add .
-git commit -m "Mensagem do Commit"
-git push
+git add . // adicina para o commit //
+git commit -m "Mensagem do Commit" // escreve uma mensagem //
+git push // enviar //
  ```
 
  ```bash
