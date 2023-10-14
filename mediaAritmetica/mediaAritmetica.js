@@ -23,15 +23,16 @@ function calcularMedia() {
         const mediaRegular = (inputN1 + inputN2 + inputN3 + inputN4) / 4;
 
 
-      if (mediaRegular >= 50) {
+      if (mediaRegular >= 70) {
         alert("Sua média no período regular é: " + mediaRegular + ". Você está aprovado! :D");
       } else {
+        alert("Exame necessário") 
         const notaExame = parseInt(prompt("Informe a nota do exame:"));
         const mediaFinal = (mediaRegular + notaExame) / 2;
         if (mediaFinal >= 50) {
-          alert("Sua média final é: " + mediaFinal + ". Você está aprovado após o exame! :)");
+          alert("Sua média final é: " + mediaFinal + ". Você está aprovado! :)");
         } else {
-          alert("Sua média final é: " + mediaFinal + ". Você está reprovado após o exame! :(");
+          alert("Sua média final é: " + mediaFinal + ". Você está reprovado! :(");
         }
       }
 }
