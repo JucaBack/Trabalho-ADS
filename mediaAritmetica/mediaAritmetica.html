@@ -5,9 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Aritmética</title>
+    <link rel="stylesheet" href="mediaAritmetica.css">
+    <script type="text/javascript" src="mediaAritmetica.js"></script>
+    
 </head>
 <body>
-    <h1> Teste maisOuMenos</h1>
-    
+    <main>
+        <section class="area">
+            <h1>Calculadora de Média</h1>
+
+            <p>Insira suas notas de 0 a 100 abaixo:</p>
+            <label for="n1">1º :</label>
+            <input type="number" name="n1" id="n1" min="0" max="100"><br><br>
+
+            <label for="n2">2º :</label>
+            <input type="number" name="n2" id="n2" min="0" max="100"><br><br>
+
+            <label for="n3">3º :</label>
+            <input type="number" name="n3" id="n3" min="0" max="100"><br><br>
+
+            <label for="n4">4º :</label>
+            <input type="number" name="n4" id="n4" min="0" max="100"><br><br>
+
+            <button onclick="calcularMedia()">Calcular Média</button>
+            <button onclick="resetar()">Limpar Notas</button>
+
+        </section>
+    </main>
 </body>
 </html>
