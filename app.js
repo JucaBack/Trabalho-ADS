@@ -13,3 +13,7 @@ function calculadoraIMC() {
 function ordenacaoDeQuatroNumeros() {
     window.open("ordenacao/ordenacao.html")
 }
+
+function maquina() {
+    window.open("maquinaSaques/maquinaSaques.html")
+}
