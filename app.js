@@ -5,3 +5,7 @@ function abrirCalculadoraSimples()
 function abrirMediaAritmeticaSimples() {
     window.open("mediaAritmetica/mediaAritmetica.html")
 }
+
+function calculadoraIMC() {
+    window.open("calculadoraIMC/calculadoraIMC.html")
+}

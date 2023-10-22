@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    background-image: url(../images/gradient-background.jpg);
+    background-color: #0f0f0f;
+}
+
+button {
+    font-size: medium;
+}
+
+section {
+    text-align: center;
+}
+
+.area {
+    background-image: url(../images/white-gradient.jpg);
+    border-radius: 20px;
+    padding: 10px;
+    min-width: 320px;
+    max-width: 500px;
+    transform: translateY(50%);
+    margin: 0 auto;
+}
+
+input {
+    width: 150px;
+    padding: 3px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    color: white;
+}
+
+.area {
+    background-color: #bebebe;
+    border-radius: 20px;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 400px;
+    transform: translateY(50%);
+    margin: 0 auto;
+    }
