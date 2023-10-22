@@ -9,3 +9,7 @@ function abrirMediaAritmeticaSimples() {
 function calculadoraIMC() {
     window.open("calculadoraIMC/calculadoraIMC.html")
 }
+
+function ordenacaoDeQuatroNumeros() {
+    window.open("ordenacao/ordenacao.html")
+}
