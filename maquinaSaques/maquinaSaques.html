@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máquina de saques automáticos de dinheiro</title>
+    <link rel="stylesheet" href="maquinaSaques.css">
+    <script type="text/javascript" src="maquinaSaques.js"></script>
+    
+</head>
+<body>
+    <main>
+        <section class="area">
+            <h1>Máquina de saques automáticos de dinheiro</h1>
+
+            <p>Insira o valor do saque abaixo</p>
+            <label for="saque">Valor do saque:</label>
+            <input type="number" name="saque" id="saque" min="0" max="100"><br><br>
+
+            <button onclick="realizarSaque()">Realizar Saque</button>
+            <button onclick="resetar()">Limpar</button>
+
+        </section>
+    </main>
+</body>
+</html>
